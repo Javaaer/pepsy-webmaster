@@ -2,6 +2,6 @@ spring:
   datasource:
     data-username: root
     data-password: root
-    driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://42.192.78.13:3306/pepsy?useUnicode=true&characterEncoding=utf8
+    driver-class-name: org.gjt.mm.mysql.Driver  #shujukuxinxi
+    url: jdbc:mysql://localost:3306/pepsy?useUnicode=true&characterEncoding=utf8
     type: com.alibaba.druid.pool.DruidDataSource
