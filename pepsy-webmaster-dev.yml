@@ -8,3 +8,5 @@ spring:
   rabbitmq:
     host: http://192.168.22.131
     port: 5672
+    username: admin  #root  发布的时候记得改
+    password: admin  #root   发布的时候记得改
