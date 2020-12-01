@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: admin
+    driver-class-name: org.gjt.mm.mysql.Driver  #shujukuxinxi
+    url: jdbc:mysql://42.192.78.13:3306/pepsy?useUnicode=true&characterEncoding=utf8
+    type: com.alibaba.druid.pool.DruidDataSource
+  rabbitmq:
+    host: 42.192.38.172
+    port: 5672
+    username: root  #root  发布的时候记得改
+    password: root  #root   发布的时候记得改
